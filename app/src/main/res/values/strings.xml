@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GalleryEx</string>
+    <string name="no_data_available">No images were found at your storage. Add more images to your storage to start using this app</string>
+    <string name="error_fetching_data">No data available. Please make sure storage permission are enabled</string>
+    <string name="links">Links</string>
+    <string name="ok">ok</string>
+    <string name="error_blur_failure">Blur process have failed</string>
+    <string name="error_new_file_error">Unable to create upload file. Upload cannot continue</string>
+</resources>
