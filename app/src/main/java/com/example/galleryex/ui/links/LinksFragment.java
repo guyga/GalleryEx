@@ -37,6 +37,7 @@ public class LinksFragment extends Fragment implements LinksAdapter.OnLinkSelect
 	public void onLinkSelected(String link)
 	{
 		Intent intent = new Intent(Intent.ACTION_VIEW);
+		intent.addCategory(Intent.CATEGORY_BROWSABLE);
 		intent.setData(Uri.parse(link));
 
 		PackageManager packageManager = getActivity().getPackageManager();
